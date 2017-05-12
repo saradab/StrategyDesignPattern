@@ -2,7 +2,7 @@
 
 abstract class Character
 {
-    public $weapon;
+    protected $weapon;
 
     public function setWeapon(WeaponInterface $weapon)
     {
